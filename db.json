@@ -3,17 +3,17 @@
     {
       "id": 1,
       "rating": 10,
-      "text": "This is feedback item 1, from the server"
+      "text": "OkkashaAlly: Boring as usual ;("
     },
     {
       "id": 2,
-      "rating": 2,
-      "text": "This is feedback item 2, from the server"
+      "rating": 7,
+      "text": "Victoria: Kinda"
     },
     {
       "id": 3,
-      "rating": 7,
-      "text": "This is feedback item 3, from the server"
+      "rating": 10,
+      "text": "SB: Wonderful"
     }
   ]
 }

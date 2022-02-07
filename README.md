@@ -1,6 +1,7 @@
 # Feedback React App
 
-This project is for reviewing a company's service or product, then giving out the feedback.
+This project is for reviewing someone's mood, then giving out the feedback.
 
 ## Live site preview
+
 Link: https://okkasha-feedback.netlify.app/
