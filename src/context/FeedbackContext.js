@@ -54,7 +54,7 @@ export const FeedbackProvider = ({ children }) => {
 
   // Update feedback
   const updateFeedback = async (id, updatedItem) => {
-    const response = await fetch(`feedback/${id}`, {
+    await fetch(`feedback/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -62,7 +62,7 @@ export const FeedbackProvider = ({ children }) => {
       body: JSON.stringify(updatedItem),
     });
 
-    const data = response.json();
+    // const data = response.json();
 
     setFeedback(
       feedback.map(item => {
